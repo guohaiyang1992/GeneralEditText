@@ -1,9 +1,35 @@
-# GeneralEditText
+## **GeneralEditText**
 ---
-特点： 解决edittext光标在某些rom下无法修改的问题
+###**特点：** 
 
-使用步骤： 
-  -1.导入该库
-  -2.使用`app:textCursorDrawable="@drawable/xx"`
+ - 解决`edittext`光标在某些`rom`下无法修改的问题
+
+###**使用步骤：** 
   
-如何使用本库：
+
+ - 导入该库
+
+
+Step 1. Add it in your root build.gradle at the end of repositories:
+```
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+Step 2. Add the dependency
+
+	
+
+```
+dependencies {
+	        compile 'com.github.guohaiyang1992:GeneralEditText:0.1'
+	}
+```
+
+
+ 
+
+ - 使用`app:textCursorDrawable="@drawable/xx"`
