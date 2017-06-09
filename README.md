@@ -30,6 +30,7 @@ dependencies {
 ```
 
 
+ - 使用该库的控件`com.ghy.ui.GeneralEditText`
  
 
  - 使用`app:textCursorDrawable="@drawable/xx"`
