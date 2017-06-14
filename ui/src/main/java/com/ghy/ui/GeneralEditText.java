@@ -19,7 +19,7 @@ import java.lang.reflect.Field;
  * <p>
  * Author:Simon date:2017.06.09
  */
-class GeneralEditText extends EditText {
+public class GeneralEditText extends EditText {
     public GeneralEditText(Context context) {
         super(context);
     }
